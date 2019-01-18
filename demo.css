@@ -1,0 +1,130 @@
+*{
+	margin: 0;/*默认8PX去掉*/
+	padding: 0; /*去掉ul,li的默认属性*/
+	list-style: none; /*默认黑点样式去掉*/
+	text-decoration: none; /*a标签下划线去掉*/
+}
+.startPage{
+	width:100%;
+	z-index:999;
+	height:1000px;
+	position:absolute;/*body是父级，相对于body定位*/
+	top:0px;
+	left:0px; /*top right bottom left是绝对定位的属性*/
+	/*display:none;*/
+}
+
+
+.startBtn{
+	background-image:url('img/startGame.png');
+	height:170px; /*宽高根据startPage设置适合的大小*/
+	width:200px; /*宽高根据startPage设置适合的大小*/
+	background-size:100% 100%; /*开始游戏图标铺满整个startBtn*/
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0; /*top right bottom left是绝对定位的属性*/
+	margin:auto; /*居中,如果不设置top,right,bottom,left为0，那么margin的值要自己去调正*/
+}
+.wrapper{
+	width:100%;
+	height:1000px;
+	background-image:url("img/bg.jpg")/*url里可以单引号，双引号，不加引号*/;
+	background-size:100% 100%; /*背景图片铺满整个页面*/
+	position:relative;/*要用relative相对定位,占据原来的空间*/
+}
+.left-side{
+	width:24%;
+	position:absolute;
+	height:1000px;
+	border-right:1px solid black;
+}
+.left-side img{
+	display:none;
+	margin-left:50px;
+	margin-top:100px;
+}
+.main{
+	position:absolute;
+	left:25%;
+	width:50%;
+	height:90%;
+	border:1px solid black;/*background-color:black也可以*/
+}
+.header{
+	width:100%;
+	height:80px;
+	text-align:center;/*这个写在.score也可以，center是水平居中*/
+}
+.score{
+	line-height:80px;
+	color:#ddd;
+	font-size:20px;
+	font-weight:bolder;
+}
+.content{
+	position:absolute;/*content的父级是main，所以是依据main来定位*/
+	width:79.5%;
+	height:36.5%;
+	left:10%;
+	top:34%;
+	border:1px solid red;
+}
+.loser{
+	display:none;
+	width:100%;
+	height:1000px;
+	top:0;
+	left:0;
+	position:absolute;/*增加position:absolute是为了解决贪吃蛇游戏结束后，不关闭结束界面，直接点击开始也能继续游戏的BUG*/
+}
+.con{
+	background-image:url(img/startP.jpg);
+	background-size:100% 100%;
+	height:300px;
+	width:400px;
+	position:absolute;/*如果改为relative,会占据原来在HTML的位置处出现*/
+	margin:auto;
+	left:0;
+	top:-70px;
+	right:0;
+	bottom:0;
+	border-radius:20px;
+}
+.loserScore{
+	display:block;
+	height:30px;
+	width:40px;
+	position:absolute;
+	top:42%;
+	left:40%;
+	color:#222;
+	font-size:30px;
+	font-weight:bolder;
+
+}
+.close{
+	position:absolute;
+	top:0;/*0可以不加px*/
+	right:0px;
+	height:40px;
+	width:40px;
+	background-image:url('img/closeBtn.png');
+	background-size:100% 100%;/*第一个是宽，第二个是高*/
+	cursor:pointer;
+
+}
+.food{
+	background-image:url("img/apple.png");/*如果图片是需要动态变化的，一般设置在CSS里,JS进行交互*/
+	background-size:100% 100%;
+}
+.head{
+	background-image:url("img/head.png");/*如果图片是需要动态变化的，一般设置在CSS里,JS进行交互*/
+	background-size:100% 100%;
+}
+.body{
+	background-image:url("img/body.png");/*如果图片是需要动态变化的，一般设置在CSS里,JS进行交互*/
+	background-size:100% 100%;
+}
