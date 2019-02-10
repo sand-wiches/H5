@@ -1,39 +1,39 @@
 *{
-	margin: 0;/*Ä¬ÈÏ8PXÈ¥µô*/
-	padding: 0; /*È¥µôul,liµÄÄ¬ÈÏÊôĞÔ*/
-	list-style: none; /*Ä¬ÈÏºÚµãÑùÊ½È¥µô*/
-	text-decoration: none; /*a±êÇ©ÏÂ»®ÏßÈ¥µô*/
+	margin: 0;/*é»˜è®¤8PXå»æ‰*/
+	padding: 0; /*å»æ‰ul,liçš„é»˜è®¤å±æ€§*/
+	list-style: none; /*é»˜è®¤é»‘ç‚¹æ ·å¼å»æ‰*/
+	text-decoration: none; /*aæ ‡ç­¾ä¸‹åˆ’çº¿å»æ‰*/
 }
 .startPage{
 	width:100%;
 	z-index:999;
 	height:1000px;
-	position:absolute;/*bodyÊÇ¸¸¼¶£¬Ïà¶ÔÓÚbody¶¨Î»*/
+	position:absolute;/*bodyæ˜¯çˆ¶çº§ï¼Œç›¸å¯¹äºbodyå®šä½*/
 	top:0px;
-	left:0px; /*top right bottom leftÊÇ¾ø¶Ô¶¨Î»µÄÊôĞÔ*/
+	left:0px; /*top right bottom leftæ˜¯ç»å¯¹å®šä½çš„å±æ€§*/
 	/*display:none;*/
 }
 
 
 .startBtn{
 	background-image:url('img/startGame.png');
-	height:170px; /*¿í¸ß¸ù¾İstartPageÉèÖÃÊÊºÏµÄ´óĞ¡*/
-	width:200px; /*¿í¸ß¸ù¾İstartPageÉèÖÃÊÊºÏµÄ´óĞ¡*/
-	background-size:100% 100%; /*¿ªÊ¼ÓÎÏ·Í¼±êÆÌÂúÕû¸östartBtn*/
+	height:170px; /*å®½é«˜æ ¹æ®startPageè®¾ç½®é€‚åˆçš„å¤§å°*/
+	width:200px; /*å®½é«˜æ ¹æ®startPageè®¾ç½®é€‚åˆçš„å¤§å°*/
+	background-size:100% 100%; /*å¼€å§‹æ¸¸æˆå›¾æ ‡é“ºæ»¡æ•´ä¸ªstartBtn*/
 	cursor:pointer;
 	position:absolute;
 	top:0;
 	right:0;
 	bottom:0;
-	left:0; /*top right bottom leftÊÇ¾ø¶Ô¶¨Î»µÄÊôĞÔ*/
-	margin:auto; /*¾ÓÖĞ,Èç¹û²»ÉèÖÃtop,right,bottom,leftÎª0£¬ÄÇÃ´marginµÄÖµÒª×Ô¼ºÈ¥µ÷Õı*/
+	left:0; /*top right bottom leftæ˜¯ç»å¯¹å®šä½çš„å±æ€§*/
+	margin:auto; /*å±…ä¸­,å¦‚æœä¸è®¾ç½®top,right,bottom,leftä¸º0ï¼Œé‚£ä¹ˆmarginçš„å€¼è¦è‡ªå·±å»è°ƒæ­£*/
 }
 .wrapper{
 	width:100%;
 	height:1000px;
-	background-image:url("img/bg.jpg")/*urlÀï¿ÉÒÔµ¥ÒıºÅ£¬Ë«ÒıºÅ£¬²»¼ÓÒıºÅ*/;
-	background-size:100% 100%; /*±³¾°Í¼Æ¬ÆÌÂúÕû¸öÒ³Ãæ*/
-	position:relative;/*ÒªÓÃrelativeÏà¶Ô¶¨Î»,Õ¼¾İÔ­À´µÄ¿Õ¼ä*/
+	background-image:url("img/bg.jpg")/*urlé‡Œå¯ä»¥å•å¼•å·ï¼ŒåŒå¼•å·ï¼Œä¸åŠ å¼•å·*/;
+	background-size:100% 100%; /*èƒŒæ™¯å›¾ç‰‡é“ºæ»¡æ•´ä¸ªé¡µé¢*/
+	position:relative;/*è¦ç”¨relativeç›¸å¯¹å®šä½,å æ®åŸæ¥çš„ç©ºé—´*/
 }
 .left-side{
 	width:24%;
@@ -51,12 +51,12 @@
 	left:25%;
 	width:50%;
 	height:90%;
-	border:1px solid black;/*background-color:blackÒ²¿ÉÒÔ*/
+	/*border:1px solid black;*//*background-color:blackä¹Ÿå¯ä»¥*/
 }
 .header{
 	width:100%;
 	height:80px;
-	text-align:center;/*Õâ¸öĞ´ÔÚ.scoreÒ²¿ÉÒÔ£¬centerÊÇË®Æ½¾ÓÖĞ*/
+	text-align:center;/*è¿™ä¸ªå†™åœ¨.scoreä¹Ÿå¯ä»¥ï¼Œcenteræ˜¯æ°´å¹³å±…ä¸­*/
 }
 .score{
 	line-height:80px;
@@ -65,12 +65,12 @@
 	font-weight:bolder;
 }
 .content{
-	position:absolute;/*contentµÄ¸¸¼¶ÊÇmain£¬ËùÒÔÊÇÒÀ¾İmainÀ´¶¨Î»*/
+	position:absolute;/*contentçš„çˆ¶çº§æ˜¯mainï¼Œæ‰€ä»¥æ˜¯ä¾æ®mainæ¥å®šä½*/
 	width:79.5%;
 	height:36.5%;
 	left:10%;
 	top:34%;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 .loser{
 	display:none;
@@ -78,14 +78,14 @@
 	height:1000px;
 	top:0;
 	left:0;
-	position:absolute;/*Ôö¼Óposition:absoluteÊÇÎªÁË½â¾öÌ°³ÔÉßÓÎÏ·½áÊøºó£¬²»¹Ø±Õ½áÊø½çÃæ£¬Ö±½Óµã»÷¿ªÊ¼Ò²ÄÜ¼ÌĞøÓÎÏ·µÄBUG*/
+	position:absolute;/*å¢åŠ position:absoluteæ˜¯ä¸ºäº†è§£å†³è´ªåƒè›‡æ¸¸æˆç»“æŸåï¼Œä¸å…³é—­ç»“æŸç•Œé¢ï¼Œç›´æ¥ç‚¹å‡»å¼€å§‹ä¹Ÿèƒ½ç»§ç»­æ¸¸æˆçš„BUG*/
 }
 .con{
 	background-image:url(img/startP.jpg);
 	background-size:100% 100%;
 	height:300px;
 	width:400px;
-	position:absolute;/*Èç¹û¸ÄÎªrelative,»áÕ¼¾İÔ­À´ÔÚHTMLµÄÎ»ÖÃ´¦³öÏÖ*/
+	position:absolute;/*å¦‚æœæ”¹ä¸ºrelative,ä¼šå æ®åŸæ¥åœ¨HTMLçš„ä½ç½®å¤„å‡ºç°*/
 	margin:auto;
 	left:0;
 	top:-70px;
@@ -107,24 +107,24 @@
 }
 .close{
 	position:absolute;
-	top:0;/*0¿ÉÒÔ²»¼Ópx*/
+	top:0;/*0å¯ä»¥ä¸åŠ px*/
 	right:0px;
 	height:40px;
 	width:40px;
 	background-image:url('img/closeBtn.png');
-	background-size:100% 100%;/*µÚÒ»¸öÊÇ¿í£¬µÚ¶ş¸öÊÇ¸ß*/
+	background-size:100% 100%;/*ç¬¬ä¸€ä¸ªæ˜¯å®½ï¼Œç¬¬äºŒä¸ªæ˜¯é«˜*/
 	cursor:pointer;
 
 }
 .food{
-	background-image:url("img/apple.png");/*Èç¹ûÍ¼Æ¬ÊÇĞèÒª¶¯Ì¬±ä»¯µÄ£¬Ò»°ãÉèÖÃÔÚCSSÀï,JS½øĞĞ½»»¥*/
+	background-image:url("img/apple.png");/*å¦‚æœå›¾ç‰‡æ˜¯éœ€è¦åŠ¨æ€å˜åŒ–çš„ï¼Œä¸€èˆ¬è®¾ç½®åœ¨CSSé‡Œ,JSè¿›è¡Œäº¤äº’*/
 	background-size:100% 100%;
 }
 .head{
-	background-image:url("img/head.png");/*Èç¹ûÍ¼Æ¬ÊÇĞèÒª¶¯Ì¬±ä»¯µÄ£¬Ò»°ãÉèÖÃÔÚCSSÀï,JS½øĞĞ½»»¥*/
+	background-image:url("img/head.png");/*å¦‚æœå›¾ç‰‡æ˜¯éœ€è¦åŠ¨æ€å˜åŒ–çš„ï¼Œä¸€èˆ¬è®¾ç½®åœ¨CSSé‡Œ,JSè¿›è¡Œäº¤äº’*/
 	background-size:100% 100%;
 }
 .body{
-	background-image:url("img/body.png");/*Èç¹ûÍ¼Æ¬ÊÇĞèÒª¶¯Ì¬±ä»¯µÄ£¬Ò»°ãÉèÖÃÔÚCSSÀï,JS½øĞĞ½»»¥*/
+	background-image:url("img/body.png");/*å¦‚æœå›¾ç‰‡æ˜¯éœ€è¦åŠ¨æ€å˜åŒ–çš„ï¼Œä¸€èˆ¬è®¾ç½®åœ¨CSSé‡Œ,JSè¿›è¡Œäº¤äº’*/
 	background-size:100% 100%;
 }
