@@ -39,7 +39,7 @@
 	width:24%;
 	position:absolute;
 	height:1000px;
-	border-right:1px solid black;
+	/*border-right:1px solid black;*/
 }
 .left-side img{
 	display:none;
